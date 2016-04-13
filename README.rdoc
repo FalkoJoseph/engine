@@ -1,28 +1,23 @@
-== README
+===============================================================================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  1. Edit the main config files:
 
-Things you may want to cover:
+    - config/initializers/carrierwave.rb
+    - config/initializers/devise.rb
+    - config/initializers/dragonfly.rb
+    - config/initializers/locomotive.rb
+    - config/devise.yml
+    - config/mongoid.yml
+    - config/routes.rb
 
-* Ruby version
+  2. Launch the server
 
-* System dependencies
+    > bundle exec rails server
 
-* Configuration
+  3. Open your browser
 
-* Database creation
+    > open localhost:3000
 
-* Database initialization
+  4. Enjoy !
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+===============================================================================
